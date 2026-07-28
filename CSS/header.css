@@ -1,0 +1,35 @@
+.NavigationBox {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+}
+
+.NavButton:hover {
+    background-color: rgb(110, 110, 110);
+    transition-duration: 0.3s;
+}
+
+.NavButton {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.NavButtonLink {
+    text-decoration: none;
+}
+
+.NavButtonLink:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
