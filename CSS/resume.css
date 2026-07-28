@@ -1,0 +1,13 @@
+.ShowcaseBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ResumePDF {
+    width: 100%;
+}
