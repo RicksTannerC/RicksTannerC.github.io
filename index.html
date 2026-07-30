@@ -7,23 +7,31 @@
     <link rel="stylesheet" href="CSS/general.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/index.js"></script>
 
 
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
     <nav class="NavigationBox">
-        <div class="NavButton"><a href="index.html" class="NavButtonLink">Home</a></div>
-        <div class="NavButton"><a href="Pages/Resume.html" class="NavButtonLink">Resume</a></div>
+        <div class="NavBoxLeft">
+            <div class="NavButton"><a href="index.html" class="NavButtonLink">Home</a></div>
+            <div class="NavButton"><a href="Pages/Resume.html" class="NavButtonLink">Resume</a></div>
+            <div class="NavButton"><a href="Pages/Projects.html" class="NavButtonLink">Projects</a></div>
+        </div>
+        <div class="NavBoxRight">
+            <div class="NavButton"><a href="Pages/Contact.html" class="NavButtonLink">Contact Me</a></div>
+        </div>
     </nav>
     <div class="BodyBox">
         <div class="AboutBox">
-            <div class="ImageBox">
-                <img src="" alt="Image Missing">
+            <div class="ImageBox" id="profilePic">
+                <img src="StaticFiles/ProfilePicture2.png" alt="Image Missing" class="ProfilePicture">
             </div>
             <div class="DescriptionBox">
                 I am a programmer
+                <!--I have to create a brief description of me here with a brief historical background-->
             </div>
         </div>
     </div>

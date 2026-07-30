@@ -3,6 +3,29 @@
     color: whitesmoke;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    right: 8px;
+    left: 8px
+}
+
+.NavBoxRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+}
+
+.NavBoxLeft {
+    display: flex;
+    flex-direction: row;
     justify-content: left;
     padding: 0;
     margin: 0;
@@ -27,6 +50,7 @@
 
 .NavButtonLink {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .NavButtonLink:visited {

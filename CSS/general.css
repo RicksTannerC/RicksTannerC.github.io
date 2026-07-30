@@ -1,6 +1,8 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(51, 51, 51);
+    height: 1000px;
 }
 
 .HeaderBox {
