@@ -7,14 +7,7 @@ body {
 }
 
 .HeaderBox {
-    background-color: #2D3A04;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    height: 150px;
 }
 
 .TitleBox {

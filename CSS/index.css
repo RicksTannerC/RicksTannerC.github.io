@@ -2,18 +2,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 }
 
 .ImageBox.scrolled {
     width: 100px;
     height: 100px;
+    top: -50px;
 }
 
 .ImageBox {
     width: 300px;
     height: 300px;
-    transition: width 0.5s, height 0.5s;
-
+    padding: 15px;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s, top 0.5s;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    top: -150px
 }
 
 .ProfilePicture {
