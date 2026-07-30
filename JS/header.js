@@ -1,12 +1,12 @@
 window.addEventListener("scroll", () => {
 
-    const profilePic = document.getElementById("profilePic");
+    const navBar = document.getElementById("navBar");
 
     if (window.scrollY > 35) {
-        profilePic.classList.add("scrolled");
+        navBar.classList.add("scrolled");
         console.log(window.scrollY);
     } else {
-        profilePic.classList.remove("scrolled");
+        navBar.classList.remove("scrolled");
         console.log(window.scrollY);
 
     }

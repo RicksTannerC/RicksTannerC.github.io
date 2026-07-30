@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: rgb(51, 51, 51);
     height: 1000px;
+    padding-top: 90px;
 }
 
 .HeaderBox {
